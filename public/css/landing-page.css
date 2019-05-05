@@ -1,0 +1,61 @@
+.card-title{
+    display: none;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 18%;
+}
+
+
+.card{
+    margin-bottom: 20px;
+    box-shadow: grey 2px 2px 2px;
+    border: none;
+}
+
+.card:hover .card-title{
+    color: white;
+    display: block;
+    transition: .3s;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: grey 5px 5px 5px;
+    transition: .3s;
+
+}
+
+@media (max-width: 1200px){
+    .card-title{
+        font-size: 24pt;
+            }
+}
+
+@media (max-width: 991px){
+
+    .card-title{
+        font-size: 20pt;
+            }
+
+    .content{
+    font-size: 11pt;
+    text-align: center;
+}
+
+    .container{
+        max-width: 90%;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 768px){
+    .card-title{
+        color: white;
+        font-size: 28pt;
+        display: block;
+        margin-top: 23%;
+            }
+    .row{
+        margin: 10px auto;
+    }
+}

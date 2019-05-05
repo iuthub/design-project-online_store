@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: #f9f9f9;
+}
+
+.container{
+    margin-bottom: 40px;
+}
+
+
+.navigation{
+    font-weight: normal;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px 0 5px 130px;
+    background-color: white;
+    font-size: 14pt;
+    color: black;
+}
+
+h2 > a{
+    font-weight: normal;
+    font-size: 14pt;
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+}
+
+.logo > a{
+    font-family: Righteous;
+    color: white;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+i:hover, a:hover{
+    color: #e50000;
+    text-decoration: none;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 9px;
+  background-color: red;
+}
+
+i:hover .badge{
+    color: white;
+}
+
+.nav{
+    background: #353535;
+}
+
+.toggle-button{
+    width: 60px;
+    padding: 5px 2px 2px 10px;
+    display: none;
+}
+
+
+
+.row{
+    width: 100%;
+}
+
+i {
+    color: white;
+    width: 60px;
+
+}
+
+.icons{
+    margin-top: .5%;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.icons > i:hover{
+    color: #e50000;
+    cursor: pointer;
+}
+
+
+.features{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin-top: 80px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+
+
+.offer{
+    padding-top: 20px;
+}
+
+.offer h4{
+    font-weight: bold;
+}
+
+.form{
+    text-align: center;
+}
+
+
+.form__input{
+    font-size: 16px;
+    width: 70%;
+    padding: 14px;
+    padding-left: 23px;
+}
+
+.form__btn{
+    background: #353535;
+    color: white;
+    font-size: 16px;
+    width: 20%;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+
+.form__btn:hover{
+    background: #555555;
+    color: white;
+}
+
+
+.title__text{
+    text-align: center;
+}
+
+.title__main{
+    color: #282828;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    color: #6d6d6d;
+    background: #e8e8e8;
+    padding: 15px 94px;
+}
+
+.credits{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px auto 0;
+    width: 70%;
+}
+
+
+.poster-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*MEDIA STUFF*/
+
+@media (max-width: 768px) {
+
+    .container{
+        margin:0;
+    }
+
+    .content{
+        margin:0;
+    }
+
+
+
+    }
+
+@media (max-width: 768px) {
+
+    .logo{
+        text-align: center;
+    }
+
+    .toggle-button{
+        display: block;
+    }
+
+    .form__input{
+    width: 100%;
+    margin-right: 0px;
+    }
+
+    .form__btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer{
+        padding: 10px 10px;
+    }
+
+    .credits{
+        width: 70%;
+}
+
+}
